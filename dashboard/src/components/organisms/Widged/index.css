@@ -1,0 +1,33 @@
+.widged__item {
+  background-color: #eee;
+  border-radius: 5px;
+  height: auto;
+  margin: 40px 0 8px 0;
+  border-left: 10px solid rgb(0, 253, 55);
+  border-right: 10px solid rgb(0, 253, 55);
+  box-shadow: 2px 3px 10px 3px rgb(170, 167, 167);  
+}
+.widged__item-header{
+  display: flex;
+  height: 30px;
+  justify-content: space-between;
+  padding: 2px 10px;
+  border-bottom: 0.4px solid rgb(170, 167, 167);
+}
+
+.widged__item-logo img{
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+}
+.widged__item-nickname p{
+  margin: 3px 0;
+}
+.widged__item-graphic{
+  border-top: 0.4px solid rgb(170, 167, 167);
+  height: 60px;
+}
+.widged__item-description{
+  padding: 5px;
+}
+
