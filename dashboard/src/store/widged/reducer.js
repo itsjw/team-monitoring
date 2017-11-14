@@ -1,9 +1,8 @@
-const information = (state = {
-  information: []
-}, action) => {
+const information = (state = {information: []}, action) => {
   switch (action.type) {
     case 'GET_INFORMATION_SUCCESS':
-      return Object.assign({}, state, action.payload.response)
+    console.log(action)
+      return Object.assign({}, state, {information: action.payload.response})
     default:
       return state
   }
