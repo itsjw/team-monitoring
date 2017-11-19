@@ -8,8 +8,8 @@ from requests.auth import HTTPBasicAuth
 from datetime import datetime
 
 JIRA_USERNAME = os.environ.get('JIRA_USERNAME')
-JIRA_PASSWORD = os.environ.get('PASSWORD')
-JIRA_ASSIGNEE = os.environ.get('ASSIGNEE')
+JIRA_PASSWORD = os.environ.get('JIRA_PASSWORD')
+JIRA_ASSIGNEE = os.environ.get('JIRA_ASSIGNEE')
 
 
 # autentification per jiralib and api
