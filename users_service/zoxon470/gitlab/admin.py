@@ -1,3 +1,4 @@
 from django.contrib import admin
+from zoxon470.gitlab.models import Zoxon470GitLabProfile
 
-# Register your models here.
+admin.site.register(Zoxon470GitLabProfile)
