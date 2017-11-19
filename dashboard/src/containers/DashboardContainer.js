@@ -5,7 +5,7 @@ import { WidgedList } from 'components'
 
 export const mapStateToProps = state => {
   return {
-    information: state.widged
+    information: state.widged.information
   }
 }
 
