@@ -1,0 +1,37 @@
+.header{
+  background-color: #000;
+  /* border-bottom: 2px solid #777; */
+}
+.header__wrap{
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.header__menu ul{
+  display: flex;
+  justify-content: space-around;
+}
+li{
+  list-style: none;
+}
+.header__menu ul li{
+  padding: 0 4px
+}
+a{
+  color: #fff;
+  text-decoration: none;
+  font-family:sans-serif;
+}
+a:hover{
+  color: rgb(255, 0, 0);
+  text-decoration: none;
+  font-family:sans-serif;
+}
+.header__lang{
+  padding-top: 15px;
+}
+.header__logo img{
+  margin-top: 5px;
+  width: 40px;
+  height: 40px;
+}
