@@ -56,7 +56,7 @@ MIDDLEWARE = [
     'corsheaders.middleware.CorsMiddleware',
 ]
 
-ROOT_URLCONF = 'zoxon470.urls'
+ROOT_URLCONF = 'user_instance.urls'
 
 TEMPLATES = [
     {
@@ -74,7 +74,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'zoxon470.wsgi.application'
+WSGI_APPLICATION = 'user_instance.wsgi.application'
 
 
 # Database

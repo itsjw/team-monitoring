@@ -3,6 +3,6 @@ from api.views import TrackingUserViewSet
 
 
 router = routers.DefaultRouter()
-router.register(r'zoxon470', TrackingUserViewSet, base_name='user')
+router.register(r'user_instance', TrackingUserViewSet, base_name='user')
 
 urlpatterns = router.urls
