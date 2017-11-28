@@ -1,0 +1,32 @@
+.footer{
+  background-color: #000;
+  /* border-bottom: 2px solid #777; */
+}
+.footer__wrap{
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.footer__map ul{
+  display: flex;
+  justify-content: space-around;
+}
+li{
+  list-style: none;
+}
+.footer__map ul li{
+  padding: 0 4px
+}
+a{
+  color: #fff;
+  text-decoration: none;
+  font-family:sans-serif;
+}
+.footer__lang{
+  padding-top: 15px;
+}
+.footer__logo img{
+  margin-top: 5px;
+  width: 40px;
+  height: 40px;
+}
