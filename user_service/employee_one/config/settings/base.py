@@ -55,6 +55,7 @@ THIRD_PARTY_APPS = [
 LOCAL_APPS = [
     # custom users app
     'employee_one.users.apps.UsersConfig',
+    'rest_framework',
     'gitlab',
     'jira',
     'api',
