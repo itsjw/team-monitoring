@@ -55,6 +55,8 @@ THIRD_PARTY_APPS = [
 LOCAL_APPS = [
     # custom users app
     'tracker.users.apps.UsersConfig',
+    'rest_framework',
+    'api',
     # Your stuff: custom apps go here
 ]
 
