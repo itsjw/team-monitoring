@@ -43,6 +43,11 @@ pytz==2017.3
 django-redis==4.8.0
 redis>=2.10.5
 
+# DRF
+djangorestframework==3.7.3
+markdown==2.6.9
+django-filter==1.1.0
+
 
 
 
