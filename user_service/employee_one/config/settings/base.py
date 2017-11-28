@@ -55,6 +55,7 @@ THIRD_PARTY_APPS = [
 LOCAL_APPS = [
     # custom users app
     'employee_one.users.apps.UsersConfig',
+    'gitlab',
     # Your stuff: custom apps go here
 ]
 
@@ -111,7 +112,7 @@ MANAGERS = ADMINS
 # Uses django-environ to accept uri format
 # See: https://django-environ.readthedocs.io/en/latest/#supported-types
 DATABASES = {
-    'default': env.db('DATABASE_URL', default='mysql:///employee_one'),
+    'default': env.db('DATABASE_URL', default='mysql://root:root@127.0.0.1/employee_one'),
 }
 DATABASES['default']['ATOMIC_REQUESTS'] = True
 
@@ -125,7 +126,7 @@ DATABASES['default']['ATOMIC_REQUESTS'] = True
 TIME_ZONE = 'Asia/Bishkek'
 
 # See: https://docs.djangoproject.com/en/dev/ref/settings/#language-code
-LANGUAGE_CODE = 'ru-ru'
+LANGUAGE_CODE = 'en-en'
 
 # See: https://docs.djangoproject.com/en/dev/ref/settings/#site-id
 SITE_ID = 1
