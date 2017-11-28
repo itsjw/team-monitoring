@@ -1,3 +1,4 @@
 from django.contrib import admin
+from jira.models import JiraProfile
 
-# Register your models here.
+admin.site.register(JiraProfile)
