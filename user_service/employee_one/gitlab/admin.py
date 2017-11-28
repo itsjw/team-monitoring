@@ -1,3 +1,4 @@
 from django.contrib import admin
+from gitlab.models import GitLabProfile
 
-# Register your models here.
+admin.site.register(GitLabProfile)
