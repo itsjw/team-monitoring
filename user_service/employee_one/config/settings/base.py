@@ -56,6 +56,8 @@ LOCAL_APPS = [
     # custom users app
     'employee_one.users.apps.UsersConfig',
     'gitlab',
+    'jira',
+    'api',
     # Your stuff: custom apps go here
 ]
 
