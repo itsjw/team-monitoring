@@ -46,6 +46,10 @@ INSTALLED_APPS += ['debug_toolbar', ]
 
 INTERNAL_IPS = ['127.0.0.1', '10.0.2.2', ]
 
+# ALLOWED HOSTS
+# ------------------------------------------------------------------------------
+ALLOWED_HOSTS = env.list('DJANGO_ALLOWED_HOSTS', default=['*', ])
+
 
 import socket
 import os
@@ -63,6 +67,7 @@ DEBUG_TOOLBAR_CONFIG = {
 
 # django-extensions
 # ------------------------------------------------------------------------------
+
 INSTALLED_APPS += ['django_extensions', ]
 
 # TESTING
