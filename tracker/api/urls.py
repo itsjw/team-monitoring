@@ -1,8 +1,7 @@
-from rest_framework import routers
-from api.views import EmployeesViewSet
+from django.conf.urls import url
+from api.views import get_data_zoxon
 
 
-router = routers.DefaultRouter()
-router.register(r'^employees', EmployeesViewSet, base_name='api-v1')
-
-urlpatterns = router.urls
+urlpatterns = [
+    url(r'^get_data_zoxon', get_data_zoxon, name='zoxon')
+]

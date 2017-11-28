@@ -1,8 +1,12 @@
-from rest_framework import viewsets
-from api.models import Employees
-from api.serializers import EmployeesSerializer
+import requests
+from django.http import HttpResponse
 
 
-class EmployeesViewSet(viewsets.ModelViewSet):
-    queryset = Employees.objects.all()
-    serializer_class = EmployeesSerializer
+def get_data_zoxon(request):
+    url = 'http://192.168.20.171:8001/api/v1/zoxon470/'
+    zoxon = requests.get(url).json()
+    return HttpResponse(zoxon)
+
+
+
+
