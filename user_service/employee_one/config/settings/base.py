@@ -115,7 +115,7 @@ MANAGERS = ADMINS
 # Uses django-environ to accept uri format
 # See: https://django-environ.readthedocs.io/en/latest/#supported-types
 DATABASES = {
-    'default': env.db('DATABASE_URL', default='mysql://root:root@127.0.0.1/employee_one'),
+    'default': env.db('DATABASE_URL', default='mysql://root:root@127.0.0.1/team_monitoring'),
 }
 DATABASES['default']['ATOMIC_REQUESTS'] = True
 
